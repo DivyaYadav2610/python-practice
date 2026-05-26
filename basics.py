@@ -2,6 +2,13 @@
 # This is a single-line comment
 print("Hello, world!")  # This comment is after code
  
+
+'''
+This is also used
+as a multiline comment
+in Python
+'''
+
  
 # variables : variable is a named container used to store value (interger,float,boolean,string) in a program.
 # variable behaves as if it wasthe value it contains
@@ -32,14 +39,14 @@ if is_student:
     print("u are a student")
 else:
     print("u are not")  
-
 # dictionary 
 a = {'name':'divya''neha''shruti',
      age : 2345,
-     }   
+     'city' : "dhule" "nashik"     }   
 
-#tuple  
+#tuple --immutable 
 student =("divya",32,"information technology")
+
 #list -- mutable 
 name =["eva","adhira","anvi"]
 no =[3,4,4]
